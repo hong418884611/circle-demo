@@ -12,8 +12,8 @@ jobs:
           - "42:11:ea:35:ed:54:6a:01:10:a6:b0:92:78:3f:13:0a"
       - checkout
       - run:
-        name: Install
-        command: yarn install
+          name: Install
+          command: yarn install
       - run:
-        name: Build
-        command: yarn build 
+          name: Build
+          command: yarn build 
